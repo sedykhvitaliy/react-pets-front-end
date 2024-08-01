@@ -40,3 +40,83 @@
 .read-the-docs {
   color: #888;
 }
+
+#root {
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: fit-content(375px) 1fr;
+}
+
+.sidebar-container {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(42, 42, 42);
+  min-width: 0;
+}
+
+.list-container {
+  display: flex;
+  justify-content: flex-start;
+  overflow-y: overlay;
+  max-height: 700px;
+  scrollbar-color: #ffffff40 #00000000;
+}
+
+ul {
+  list-style-type: none;
+  max-width: 300px;
+  display: inline-block;
+}
+
+li {
+  font-size: 2rem;
+  white-space: wrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin-bottom: 1.2rem;
+  cursor: pointer;
+}
+
+.details-container {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  font-size: 1.2rem;
+}
+
+input {
+  height: 2rem;
+  width: 12rem;
+  margin-bottom: 1rem;
+}
+
+button {
+  width: 200px;
+  margin: 1rem;
+}
+
+.button-container {
+  padding: 2rem;
+  outline: 0;
+}
