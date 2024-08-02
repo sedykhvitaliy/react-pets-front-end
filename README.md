@@ -1,6 +1,6 @@
 # BlogApp
 
-![BlogApp Screenshot](https://imgur.com/3cfd6587-8548-4bd6-a5c0-2c3f188b8f0a)
+![BlogApp Screenshot](https://imgur.com/a/iwaHBRW)
 
 ## Description
 
